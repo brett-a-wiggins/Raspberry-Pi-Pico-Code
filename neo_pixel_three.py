@@ -33,7 +33,7 @@ class Player(object):
             sys.exit()
         
     def move(self, direction, distance):
-        print(f"You have moved {distance} in a {direction} direction")
+        print(f"You have moved {distance} meters in a {direction} direction")
         direction = direction
     
     def pick_up_item(self,item):
